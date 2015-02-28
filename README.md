@@ -14,11 +14,15 @@ The app features an AJAX implementation of some of the GET requests available in
 
 What's there to improve?
 
-First, the entire script is just one big file. Splitting it int a more organized HTML, CSS and Javascriot files would be awesome.
+-First, the entire script is just one big file. Splitting it int a more organized HTML, CSS and Javascriot files would be awesome.
 
-The ajax request and write on cmd are just one function. Ideally they should be two decoupled functions.
+-The ajax request and write on cmd are just one function. Ideally they should be two decoupled functions.
 
-Some commans are really slow because each request envolves dozens of sub-requests. A better solution is needed. E.g.: GetJobsbyID
+- About half of the commands the API provides are not implemented yet :/
+
+-Some commans are really slow because each request envolves dozens of sub-requests. A better solution is needed. E.g.: GetJobsbyID
+
+- Mobile support is basic + The logo does not work in all PC's
 
 This readme is bad. 
 
