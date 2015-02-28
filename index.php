@@ -28,6 +28,7 @@
     		}
       .header {	padding-bottom: 15px;}
 
+
       .container {max-width: 920px; margin: auto;}
       .terminal_holder {
       	float:left;
@@ -50,10 +51,14 @@
       a:visited {
         color: #ccc;
       }
-      @media screen and (max-width: 621px) {
+      @media (max-width: 940px) {
         .header {
           font-size: 6px;
-        }
+          }
+        .slide{ visibility: hidden;}
+              }
+      @media (max-width: 600px) {
+        .logo{ font-size:0; visibility: hidden;}
       }
       input { background-color: transparent;  color: #ffffff;  border: none; outline: none; color: #00CB00; font-size: 14px; font-family: monospace;}
     </style>
@@ -67,13 +72,15 @@
 
   	<div class="terminal_holder" id="terminal_holder">
 
-
+    <div class="logo">
 		&nbsp;&nbsp;&nbsp;__&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;______&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;______&nbsp;&nbsp;&nbsp;&nbsp; ______&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;______&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;__&nbsp;&nbsp;__&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
 		&nbsp;&nbsp;/\&nbsp;\&nbsp;&nbsp; /\&nbsp;&nbsp;__&nbsp;\&nbsp;&nbsp;&nbsp;/\&nbsp;&nbsp;==&nbsp;\&nbsp;&nbsp;&nbsp;/\&nbsp;&nbsp;== \&nbsp;&nbsp;&nbsp;/\&nbsp;&nbsp;__&nbsp;\&nbsp;&nbsp;&nbsp;/\_\_\_\<br>
 		&nbsp;_\_\&nbsp;\&nbsp;&nbsp;\&nbsp;\&nbsp;\/\&nbsp;\&nbsp;&nbsp;\&nbsp;\&nbsp;&nbsp;__&lt;&nbsp;&nbsp;&nbsp;\&nbsp;\&nbsp;&nbsp;__&lt;&nbsp;&nbsp;&nbsp;\&nbsp;\ \/\&nbsp;\&nbsp;&nbsp;\/_/\_\/_<br>
 		/\_____\&nbsp;&nbsp;\&nbsp;\_____\&nbsp;&nbsp;\&nbsp;\_____\&nbsp;&nbsp;\&nbsp;\_____\&nbsp;&nbsp;\&nbsp;\_____\&nbsp;&nbsp; /\_\/\_\<br>
 		\/_____/&nbsp;&nbsp; \/_____/&nbsp;&nbsp;&nbsp;\/_____/&nbsp;&nbsp;&nbsp;\/_____/&nbsp;&nbsp;&nbsp;\/_____/&nbsp;&nbsp; \/_/\/_/<br><br><br>
-		This is a terminal done by Pupo
+		</div>
+
+    This is a terminal done by Pupo
 		<br>It should connect to the JOBBOX API and get some cool info from them.
 		<br> While using this, you should feel like an hacker. 
 		<br> If not, go to jobbox.io for the true experience.
