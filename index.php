@@ -368,7 +368,7 @@ function Getcompanyname(id) {
 
           		document.getElementById("cmd").innerHTML += "<FONT COLOR=\"#FD8E2F\">Company: </FONT>" +  company.name;
 
-          		sjumpToPageBottom();
+          		jumpToPageBottom();
            	},
 
           error: function() { alert('boo!'); }
